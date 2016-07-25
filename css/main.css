@@ -82,7 +82,9 @@
 			margin-right:auto;
 			width: 420px;
 		}
-
+aside {
+	margin-top: 30px;
+}
 
 
 
@@ -148,13 +150,16 @@ ul.wide-widget li .video-button {
 
 .home-widget .wide-text {
 	position: relative;
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 
 /* Secciones videos */
+.secciones {
+	margin-top: 50px;
+}
 .seccion-belleza {
-	border: 1px solid #ffd938;
+	border: 2px solid #ffd938;
 	border-top: 20px solid #ffd938;
 	border-radius: 10px;
 	margin-bottom: 50px;
@@ -175,7 +180,7 @@ ul.wide-widget li .video-button {
 	}
 
 .seccion-sana {
-	border: 1px solid #21a69b;
+	border: 2px solid #21a69b;
 	border-top: 20px solid #21a69b;
 	border-radius: 10px;
 	margin-bottom: 50px;
@@ -196,7 +201,7 @@ ul.wide-widget li .video-button {
 	}
 
 .seccion-pareja {
-	border: 1px solid #9c2756;
+	border: 2px solid #9c2756;
 	border-top: 20px solid #9c2756;
 	border-radius: 10px;
 	margin-bottom: 50px;
@@ -217,7 +222,7 @@ ul.wide-widget li .video-button {
 	}
 
 .seccion-tecno {
-	border: 1px solid #144663;
+	border: 2px solid #144663;
 	border-top: 20px solid #144663;
 	border-radius: 10px;
 	margin-bottom: 50px;
@@ -238,7 +243,7 @@ ul.wide-widget li .video-button {
 	}
 
 .seccion-panoramas {
-	border: 1px solid #878787;
+	border: 2px solid #878787;
 	border-top: 20px solid #878787;
 	border-radius: 10px;
 	margin-bottom: 50px;
@@ -292,6 +297,6 @@ ul.wide-widget li .video-button {
 	}
 
 .publicidad {
-	margin: 20px auto;
+	margin: 10px auto;
 }
 
