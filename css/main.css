@@ -30,15 +30,15 @@
 		letter-spacing: 3px;
 		padding: 0 0 3px 5px;
 		text-transform: uppercase;}
-		.destacados h3.belleza {
+		h3.belleza {
 			border-bottom: 3px solid #ffd938;}
-		.destacados h3.sana {
+		h3.sana {
 			border-bottom: 3px solid #21a69b;}
-		.destacados h3.pareja {
+		h3.pareja {
 			border-bottom: 3px solid #9c2756;}
-		.destacados h3.tecno {
+		h3.tecno {
 			border-bottom: 3px solid #144663;}
-		.destacados h3.panoramas {
+		h3.panoramas {
 			border-bottom: 3px solid #878787;}
 	.destacados h5 {
 		font-family: "proxima-nova",arial;
@@ -296,7 +296,11 @@ ul.wide-widget li .video-button {
 		background-color: #144663;
 	}
 
+.otras-secciones h3 {
+	padding-bottom: 20px;
+}
+
 .publicidad {
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
