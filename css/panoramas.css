@@ -1,3 +1,9 @@
+.videoBig{
+	width: 500px;
+	height: 260px;
+	margin: inherit;
+}
+
 .title-video{
 	font-family: "proxima-nova",arial;
 	color: whitesmoke;
