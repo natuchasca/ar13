@@ -1,7 +1,12 @@
+.title-video{
+	font-family: "proxima-nova",arial;
+	color: whitesmoke;
+}
 iframe{
-	width: 100%;
+	width: 80%;
 	height: 300px;
-	padding-bottom: 2%
+	padding-bottom: 2%;
+	margin: 0 10%;
 }
 .row-full.row-videos{
 	background: #878787;
