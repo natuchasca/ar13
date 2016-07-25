@@ -1,7 +1,330 @@
+
 .tittle_section
 {
-	background-color:  #9C2756;
+	
 	padding:30px 10px;
 	height:100px;
 	color:white;
+	font-family: 'Proxima-nova'; 
+	text-transform: uppercase;
 }
+.tittle_section_banner
+{
+background-color:#9C2756;
+}
+
+.slide-img
+{
+	width:100%;
+}
+.row-full .mod-title .mod-title-line {
+    height: 1px;
+    display: block;
+    background: #9C2756;
+    width: 90px;
+    margin: 7px auto 5px auto;}
+
+    .row-full .mod-title {
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.padding-anuncios {
+	padding: 30px 0;
+}
+
+.contenido {
+	padding: 50px 0;
+}
+
+
+
+/* DESTACADOS */
+.destacados {
+	background: #fff;
+	-moz-box-shadow: 0 0 20px -10px #000;
+	-ms-box-shadow: 0 0 20px -10px #000;
+	-o-box-shadow: 0 0 20px -10px #000;
+	-webkit-box-shadow: 0 0 20px -10px #000;
+	box-shadow: 0 0 20px -10px #000;
+	position: relative;
+	width: 100%;
+	overflow: hidden;}
+	.destacados h2 {
+		font-family: "proxima-nova",arial;}
+	.destacados h3 {
+		font-family: "proxima-nova",arial;
+		display: inline-block;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 120%;
+		letter-spacing: 3px;
+		padding: 0 0 3px 5px;
+		text-transform: uppercase;}
+		.destacados h3.belleza {
+			border-bottom: 3px solid #ffd938;}
+		.destacados h3.sana {
+			border-bottom: 3px solid #21a69b;}
+		.destacados h3.pareja {
+			border-bottom: 3px solid #9c2756;}
+		.destacados h3.tecno {
+			border-bottom: 3px solid #144663;}
+		.destacados h3.panoramas {
+			border-bottom: 3px solid #878787;}
+	.destacados h5 {
+		font-family: "proxima-nova",arial;
+		margin-bottom: 25px;}
+
+.top-left, 
+.top-right {
+	padding: 20px 0;}
+	.top-left img,
+	.top-right img {
+		margin: 10px auto;
+	}
+
+.destacados .top-middle {
+	border-left: 10px solid #111;
+	border-right: 10px solid #111;
+	height: 578px;
+	position: absolute;
+	width: auto;}
+	.destacados .top-middle img {
+		float: left;
+		line-height: 0;
+		margin-bottom: 160px;
+		position: relative;
+		width: 100%;
+		height: 303px;}
+		.middle-text {
+			background: #fff;
+			-ms-box-shadow: 0 -22px 40px -30px #000;
+			-moz-box-shadow: 0 -22px 40px -30px #000;
+			-o-box-shadow: 0 -22px 40px -30px #000;
+			-webkit-box-shadow: 0 -22px 40px -30px #000;
+			box-shadow: 0 -40px 50px -50px #000;
+			padding: 20px;
+			position: absolute;
+			bottom: 80px;
+			left: 15px;
+			right: 0;
+			text-align: center;
+			margin-left:auto;
+			margin-right:auto;
+			width: 420px;
+		}
+
+
+
+
+/* Articulos */
+.home-widget {
+	font: 12px/18px helvetica, arial, sans-serif;
+	margin-bottom: 20px;
+	background: #fff;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	-ms-box-shadow: 0 -22px 40px -30px #000;
+	-moz-box-shadow: 0 -22px 40px -30px #000;
+	-o-box-shadow: 0 -22px 40px -30px #000;
+	-webkit-box-shadow: 0 -22px 40px -30px #000;
+	box-shadow: 0 -22px 40px -30px #000;
+	width: 700px;
+}
+.home-widget ul.wide-widget {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.home-widget .wide-img {
+	line-height: 0;
+	position: relative;
+	width: 100%;
+	height: 376px;
+}
+
+.home-widget span.wide-shade {
+	position: relative;
+}
+
+ul.wide-widget li .video-button {
+	top: 20px;
+	left: 20px;
+	width: 80px;
+	height: 80px;
+}
+
+.home-widget span.widget-cat-contain {
+	float: left;
+	margin-top: -14px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.home-widget h3.widget-cat {
+	border: 3px solid #fff;
+	color: #fff;
+	display: inline-block;
+	font: 500 12px/12px 'Raleway', sans-serif;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	background-color: #144663;
+}
+
+.home-widget .wide-text {
+	position: relative;
+	margin-top: 50px;
+}
+
+
+/* Secciones videos */
+.seccion-belleza {
+	border: 1px solid #ffd938;
+	border-top: 20px solid #ffd938;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding: 40px 20px 10px;}
+	.seccion-belleza h4.widget-cat {
+		border: 3px solid #fff;
+		color: #fff;
+		position: absolute;
+		top: -10px;
+		left: 30%;
+		margin-left:auto;
+		margin-right:auto;
+		font: 500;
+		font-family: 'Playfair Display';
+		padding: 10px 25px;
+		text-transform: uppercase;
+		background-color: #ffd938;
+	}
+
+.seccion-sana {
+	border: 1px solid #21a69b;
+	border-top: 20px solid #21a69b;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding: 40px 20px 10px;}
+	.seccion-sana h4.widget-cat {
+		border: 3px solid #fff;
+		color: #fff;
+		position: absolute;
+		top: -10px;
+		left: 30%;
+		margin-left:auto;
+		margin-right:auto;
+		font: 500;
+		font-family: 'Playfair Display';
+		padding: 10px 25px;
+		text-transform: uppercase;
+		background-color: #21a69b;
+	}
+
+.seccion-pareja {
+	border: 1px solid #9c2756;
+	border-top: 20px solid #9c2756;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding: 40px 20px 10px;}
+	.seccion-pareja h4.widget-cat {
+		border: 3px solid #fff;
+		color: #fff;
+		position: absolute;
+		top: -10px;
+		left: 25%;
+		margin-left:auto;
+		margin-right:auto;
+		font: 500;
+		font-family: 'Playfair Display';
+		padding: 10px 25px;
+		text-transform: uppercase;
+		background-color: #9c2756;
+	}
+
+.seccion-tecno {
+	border: 1px solid #144663;
+	border-top: 20px solid #144663;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding: 40px 20px 10px;}
+	.seccion-tecno h4.widget-cat {
+		border: 3px solid #fff;
+		color: #fff;
+		position: absolute;
+		top: -10px;
+		left: 25%;
+		margin-left:auto;
+		margin-right:auto;
+		font: 500;
+		font-family: 'Playfair Display';
+		padding: 10px 25px;
+		text-transform: uppercase;
+		background-color: #144663;
+	}
+
+.seccion-panoramas {
+	border: 1px solid #878787;
+	border-top: 20px solid #878787;
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding: 40px 20px 10px;}
+	.seccion-panoramas h4.widget-cat {
+		border: 3px solid #fff;
+		color: #fff;
+		position: absolute;
+		top: -10px;
+		left: 25%;
+		margin-left:auto;
+		margin-right:auto;
+		font: 500;
+		font-family: 'Playfair Display';
+		padding: 10px 25px;
+		text-transform: uppercase;
+		background-color: #878787;
+	}
+
+.seccion-publicidad {
+	margin-bottom: 50px;}
+
+.mini-detalles .preview {
+	float: left;
+	margin-right: 10px;}
+	.mini-detalles p {
+		font-size: 12px;
+	} 
+
+
+
+/* Secciones emprende */
+.mas-vistos {
+	border: 1px solid #144663;
+	border-top: 20px solid #144663;
+	border-radius: 10px;
+	padding: 40px 20px 10px;}
+	.mas-vistos h4.widget-cat {
+		border: 3px solid #fff;
+		color: #fff;
+		position: absolute;
+		top: -10px;
+		left: 23%;
+		margin-left:auto;
+		margin-right:auto;
+		font: 500;
+		font-family: 'Playfair Display';
+		padding: 10px 25px;
+		text-transform: uppercase;
+		background-color: #144663;
+	}
+
+.publicidad {
+	margin: 20px auto;
+}
+
+>>>>>>> cea04168909adf1c2ec4c3b224a675e02c379946
